@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    background: #f2f2f2;
+}
+
+/* Registation form box */
+.container {
+    background: white;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top: 5px solid blue;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+/* Heading  */
+.container h1 {
+    font-size: 30px;
+    line-height: 22px;
+    padding: 20px;
+    text-align: center;
+}
+
+.input-name {
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+
+}
+
+.user {
+    padding: 8px 11px;
+}
+
+.name {
+    width: 45%;
+    padding: 8px 0 8px 40px;
+
+}
+
+.input-name span {
+    margin: 18px;
+}
+
+.text-name {
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+
+.input-name i {
+    position: absolute;
+    font-size: 18px;
+    color: blue;
+    border-right: 1px solid #cccccc;
+}
+
+.email {
+    padding: 8px;
+}
+
+.lock {
+    padding: 8px;
+}
+
+.text-name,
+.name {
+    border: 1px solid #cccccc;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.text-name:hover,
+.name:hover {
+    background-color: #fafafa;
+}
+
+.text-name:focus,.name:focus {
+    border: 1px solid blue;
+}
+.radio-btn{
+    margin: 8px;
+}
+.country{
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    padding-left: 15px;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    color: #7b7b7b;
+    border-radius: 0;
+    background: white;
+    appearance: none;
+
+
+}
+
+.country:hover, .country:focus{
+    color: blue;
+    background: #fafafa;
+    border-color: blue;
+}
+.arrow{
+    position: absolute;
+    top: calc(50% - 4px);
+    right: 15px;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    border-width: 8px 5px 0 5px;
+    border-style: solid;
+    border-color: #7b7b7b transparent transparent transparent ;
+
+}
+.country:hover + .arrow, .country:focus + .arrow{
+    border-top-color: blue;
+}
+.check{
+    margin-left: 13px;
+    
+}
+.button{
+    width: 100%;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: green;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e020ac47b3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registation Form</h1>
+        <div class="form-container">
+            <form action="">
+                <div class="input-name">
+                    <i class="fa-solid fa-user user"></i>
+                    <input class="name" type="text" placeholder="Frist name" required>
+
+                    <span>
+                        <i class="fa-solid fa-user user"></i>
+                        <input class="name" type="text" placeholder="Last name">
+                    </span>
+                </div>
+
+                <div class="input-name">
+                    <i class="fa-solid fa-envelope email"></i>
+                    <input class="text-name" type="email" placeholder="Email" required>
+                </div>
+
+                <div class="input-name">
+                    <i class="fa-solid fa-lock lock"></i>
+                    <input class="text-name" type="password" placeholder="password" required>
+                </div>
+
+                <div class="input-name">
+                    <i class="fa-solid fa-lock lock"></i>
+                    <input class="text-name" type="password" placeholder="Confirm password" required>
+                </div>
+
+                <div class="input-name">
+                    <label class="radio-btn">Gender</label>
+                    <input type="radio" name="gender" class="radio-btn">
+                    <label>Male</label>
+
+                    <input type="radio" name="gender" class="radio-btn" required>
+                    <label>Female</label>
+                </div>
+
+                <div class="input-name">
+                    <select class="country">
+                        <option>Select a Country</option>
+                        <option>India</option>
+                        <option>Nepal</option>
+                        <option>Srilanka</option>
+                        <option>Japan</option>
+                    </select>
+                    <div class="arrow"></div>
+                </div>
+
+                <div class="input-name">
+                    <input id="cb" type="checkbox" class="check-button">
+                    <label for="cb" class="check">I accept the terms and condition</label>
+                </div>
+
+                <div class="input-name">
+                    <input type="submit" value="Register" class="button">
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
